@@ -1,0 +1,60 @@
+/* General Page Styling */
+body {
+    background-color: #f4f7f6; /* Soft light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a5568;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #2d3748 !important; /* Dark slate blue */
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* The "White Card" look from your Figure 3 & 4 */
+.card {
+    border: none;
+    border-radius: 20px; /* Large rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    background: #ffffff;
+    transition: transform 0.2s;
+}
+
+/* Dashboard List Items (Figure 3) */
+.assignment-item {
+    background: #f8fafc;
+    border-left: 5px solid #3182ce; /* Blue accent line on left */
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #3182ce;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #2b6cb0;
+}
+
+/* Form Inputs */
+.form-select, .form-control {
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
